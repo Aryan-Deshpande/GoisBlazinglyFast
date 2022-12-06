@@ -20,4 +20,5 @@ func main(){
 	bb := [2] string{"hello there", " this is bob"};
 
 	fmt.Println(a,b,c,d,aa,bb[0]);
+
 }
