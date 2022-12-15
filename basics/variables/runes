@@ -1,0 +1,18 @@
+package variables
+
+import (
+	"fmt"
+)
+
+// runes are int32 literals.
+// runes are used to represent the UTF-8 characters. Which are a set of all characters universally used.
+// compared to bytes where it represents ASCII characters.
+
+func runes(){
+
+	var simple rune
+	simple = 'c'
+
+	fmt.Print("%T", simple)
+
+}
